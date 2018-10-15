@@ -21,10 +21,10 @@ class Piglatin extends Component {
           // console.log(word +'-way');
           return (word +'-way');
       // if word does not have a vowel in the first index, remove the first index and store in a new variable
-        } else if (letters.indexOf(0) === 'q' && letters.indexOf(1) === 'u') {
-          var removeQu = letters.splice(0, 2);
-          // console.log(removeQu);
-          return (removeQu)
+    } else if (letters[0] === 'q' && letters[1] === 'u') {
+          var removeQu = letters.splice(0, 2)
+          // console.log('qu stuff', removeQu);
+          return (letters.join("") + 'quay')
         } else {
           var c = letters.shift()
           var letters1 = letters.join('')

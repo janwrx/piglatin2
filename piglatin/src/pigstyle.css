@@ -1,14 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #C37D92;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +9,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  border: 4px solid #846267;
+  border-radius: 10px;
+  font-size: 50px;
+  text-shadow: 3px 3px #AC9FBB;
+  font-family: 'Leckerli One', cursive;
+  padding: 10px;
+}
+
+
+.logo {
+  animation: App-logo-spin infinite 15s linear;
+  height: 40vmin;
+
 }
 
 @keyframes App-logo-spin {

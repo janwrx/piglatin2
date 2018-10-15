@@ -25,7 +25,7 @@ class Input extends Component {
     return(
       <form onSubmit={this.submitHandler.bind(this)}>
         <input type='text' name='userIn' onChange={this.handleChange.bind(this)} />
-        <input type='submit' value='Submit' />
+        <input type='submit' value='Enter' />
       </form>
     )
   }
